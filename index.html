@@ -7,8 +7,12 @@
     <!-- ================== unicons ====================== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
+    <!--=================== Boxicons ===================== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
     <!-- ================== swiper css ====================== -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
 
     <!-- ================== main css ====================== -->
     <link rel="stylesheet" href="./css/style.css">
@@ -770,7 +774,62 @@
         </section>
 
     <!-- ============= Testimonials ============ -->
+        <section class="testimonials section">
+            <h2 data-heading="My clients say" class="section_title">Testimonials</h2>
 
+            <div class="testimonials_container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial_card swiper-slide">
+                        <div class="testimonial_quote">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="testimonial_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit fugiat sint odio nam autem ab voluptates non. Eligendi reprehenderit quis atque eveniet, quod animi impedit velit sequi deleniti fuga culpa.</p>
+                        <h3 class="testimonial_date">March 27. 2022</h3>
+                        <div class="testimonial_profile">
+                            <img src="./assets/img/evrad.png" alt="evrad-img" class="testimonial_profile-img">
+
+                            <div class="testimonial_profile-name">
+                                <span class="testimonial_profile-name">Konan Evrad</span>
+                                <span class="testimonial_profile-detail">DBA at Google Compagny</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial_card swiper-slide">
+                        <div class="testimonial_quote">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="testimonial_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit fugiat sint odio nam autem ab voluptates non. Eligendi reprehenderit quis atque eveniet, quod animi impedit velit sequi deleniti fuga culpa.</p>
+                        <h3 class="testimonial_date">Feb 02. 2022</h3>
+                        <div class="testimonial_profile">
+                            <img src="./assets/img/dylan.png" alt="dylan-img" class="testimonial_profile-img">
+
+                            <div class="testimonial_profile-name">
+                                <span class="testimonial_profile-name">Dylan Blé</span>
+                                <span class="testimonial_profile-detail">Photographer - DBPhotography</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial_card swiper-slide">
+                        <div class="testimonial_quote">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="testimonial_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit fugiat sint odio nam autem ab voluptates non. Eligendi reprehenderit quis atque eveniet, quod animi impedit velit sequi deleniti fuga culpa.</p>
+                        <h3 class="testimonial_date">December 15. 2023</h3>
+                        <div class="testimonial_profile">
+                            <img src="./assets/img/ruth.png" alt="ruth-img" class="testimonial_profile-img">
+
+                            <div class="testimonial_profile-data">
+                                <span class="testimonial_profile-name">Ruth M'BRA</span>
+                                <span class="testimonial_profile-detail">Director of Gastronomic Food CI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
 
     <!-- ============= Contact ============ -->
 
@@ -784,8 +843,9 @@
     <script src="./js/mixitup.min.js"></script>
 
     <!-- ============= swiper js ============ -->
-    <script src=""></script>
+    <script src="./js/swiper-bundle.min.js"></script>
 
+    
     <!-- ============= main javascript ============ -->
     <script src="./js/script.js"></script>
 </body>

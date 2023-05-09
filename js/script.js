@@ -6,7 +6,7 @@
 
 
 // ============= SIDEBAR HIDDEN ============
-    // validate If Constant Exists
+// validate If Constant Exists
 
 // ============= SKILLS TABS ============
 const tabs = document.querySelectorAll('[data-target]');
@@ -76,7 +76,7 @@ const modalViews = document.querySelectorAll('.services_modal');
 const modalBtns = document.querySelectorAll('.services_button');
 const modalCloses = document.querySelectorAll('.services_modal-close');
 
-let modal = function(modalClick) {
+let modal = function (modalClick) {
     modalViews[modalClick].classList.add('active-modal')
 }
 
@@ -95,4 +95,21 @@ modalCloses.forEach((modalClose) => {
 })
 
 // ============= SWIPER TESTIMONIAL ============
+let swiper = new Swiper(".testimonials_container", {
+    loop: true,
+    grabCursor: true,
+    pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+    },
 
+    breakpoints: {
+        576: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 48,
+        },
+    },
+});
